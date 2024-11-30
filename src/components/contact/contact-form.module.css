@@ -1,0 +1,68 @@
+.contact {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.contact h1 {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 108px;
+  color: #FFFFFF;
+  /* max-width: 500px; */
+  text-align: center;
+  margin: 0 auto 60px auto
+}
+
+.wrapper {
+  background: linear-gradient(180deg, rgba(244, 244, 244, 0.12) 0%, rgba(255, 251, 242, 0.12) 100%);
+  padding: 85px 120px 40px 120px;
+}
+
+.control {
+  padding-bottom: 40px;
+}
+
+.stickyContainer {
+  position: relative;
+}
+
+.stickyContainer2 {
+  position: relative;
+  min-height: 500px;  
+}
+
+.nextWrapper {
+  width: 185px;
+  margin: 30px auto 0 auto;
+  border-top: 1px solid #272625;
+  padding: 60px 0 80px 0;
+  text-align: center;
+}
+
+@media (max-width:850px) {
+  .wrapper {
+    padding: 85px 50px 40px 50px;
+  }  
+}
+
+@media (max-width:575px) {
+  .contact {
+    padding-bottom: 50px;
+  }
+  .wrapper {
+    padding: 50px 30px 20px 30px;
+  }
+  .contact h1 {
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: 0px;
+    max-width: 200px;
+  }
+  .nextWrapper {
+    margin-top: 0;
+    padding: 20px 0 40px 0;
+  }
+}

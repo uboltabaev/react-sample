@@ -1,0 +1,37 @@
+.posts {
+  width: 96%;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.posts h1 {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 76px;
+  text-align: center;  
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 110px;
+}
+
+.posts .himg {
+  display: none;
+} 
+
+@media (max-width:575px) {
+  .posts .himg {
+    display: flex;
+  } 
+}
+
+@media (max-width:575px) {
+  .posts h1 {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: -10px;
+    margin-bottom: 65px;
+  }
+}

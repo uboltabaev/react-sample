@@ -1,0 +1,159 @@
+.hero {
+  text-align: center;
+}
+
+.wrapper {
+  height: 800px;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  height: 800px;
+  width: 98%;
+  z-index: -1;
+}
+
+.image2 {
+  display: none;
+  position: absolute;
+  height: 800px;
+  width: 98%;
+  z-index: -1;
+}
+
+.hero h1 {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  text-align: left;
+  color: #ffffffF2;
+  padding: 20px 0 0 50px;
+}
+
+.hero h2 {
+  font-family: 'Ethereal';
+  margin: 0;
+  padding-top: 40px;
+  font-size: 181px;
+  font-weight: 100;
+  line-height: 81%;
+  color: #E8BC83;
+  margin-bottom: 40px;
+  max-width: 760px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ffffffF2;
+  width: 70%;
+  max-width: 30rem;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 500px;
+}
+
+.hero p.p2 {
+  padding-top: 30px;
+}
+
+@media (max-width:992px) {
+  .hero-inner {
+    padding-right: 350px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero h2 {
+    padding-top: 40px;
+    font-size: 124px;
+    line-height: 110px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    max-width: 470px;
+  }
+  .wrapper {
+    padding-bottom: 80px;
+  }
+  .image {
+    display: none;
+  }
+  .image2 {
+      display: block;
+      margin-left: -8px;
+  }        
+}
+
+@media (max-width:750px) {
+  .hero-inner {
+    padding-right: 0px;
+  }
+  .hero h1 {
+    font-size: 20px;
+    padding: 0 50px 85%;
+    text-align: center;
+  }
+
+  .hero h2 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: none;
+    font-size: 84px;
+    line-height: 70px;
+    text-align: center;
+  }
+  .hero p {
+    text-align: center;
+    width: 100%;
+    max-width: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .wrapper {
+    height: auto;
+  }
+  .image2 {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width:575px) {
+  .hero h1 {
+    font-size: 20px;
+    padding: 30px 30px 75%;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .hero h2 {
+    font-size: 72px;
+    line-height: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .hero p {
+    width: auto;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .wrapper {
+    padding-bottom: 80px;
+  }
+  .image2 {
+    margin-top: 50px;
+  }
+}

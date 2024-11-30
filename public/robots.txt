@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://makeup-palace-app.web.app/
+
+# Sitemaps
+Sitemap: https://makeup-palace-app.web.app/sitemap.xml

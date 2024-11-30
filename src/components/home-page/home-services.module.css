@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    height: 800px;
+    width: 98%;
+    z-index: -1;  
+}
+
+.container h2 {
+    font-family: 'Ethereal';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 96px;
+    line-height: 157px;
+    text-align: center;
+    color: #E8BF85;
+    margin-bottom: 100px;
+}
+
+.container h4 {
+    font-family: 'Ethereal';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8BF85;    
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    max-width: 250px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 320px;
+    padding-bottom: 60px;
+    opacity: 0.70;
+}
+
+.container .divider {
+    height: 70px;
+    display: none;
+}
+
+@media (max-width:575px) {
+    .section p {
+        padding-bottom: 10px;
+    }
+    .container h4 {
+        padding-bottom: 10px;
+    }
+    .container h2 {
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 80px;
+        margin-bottom: 0;        
+    }
+}
+
+@media (max-width:992px) {
+    .container .divider {
+        display: block;
+    }
+    .container h2 {
+        margin-bottom: 50px;
+    }
+    .section p {
+        max-width: none;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

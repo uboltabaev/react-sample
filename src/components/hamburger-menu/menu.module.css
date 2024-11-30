@@ -1,0 +1,38 @@
+.close {
+    cursor: pointer;
+}
+
+.hamburgerMenu ul {
+    list-style-type: none;
+}
+
+.hamburgerMenu ul, .hamburgerMenu li {
+    margin: 0 -20px;
+    padding: 0;
+}
+
+.hamburgerMenu ul a, .hamburgerMenu .menuItem {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 28px;
+    color: #020202;
+    display: block;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.hamburgerMenu ul a:hover {
+    background-color: #EDEDED;
+}
+
+.hamburgerMenu ul.subMenu a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 70px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+.header {
+  height: 130px;
+  padding: 0 50px;
+  background-color: transparent;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  padding: 3px 15px 0 15px;
+}
+
+.header li, .header a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  opacity: 0.95;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #FFDF8B;
+}
+
+.arrow {
+  background: url(/images/icons/arrow.png) no-repeat right center;
+  padding-right: 30px;
+}
+.book_btn {
+font-size: 14px!important;
+margin-right: 20px;
+padding: 6px 12px !important;
+}
+
+@media (max-width:1135px) {
+  .header li, .header a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:992px) {
+  .book_btn {
+    font-size: 14px!important;
+    margin-right: 20px;
+    padding: 6px 12px !important;
+  }
+  .hamburgerRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:575px) {
+  .header {
+    padding: 0 30px;
+  }
+}

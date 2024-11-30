@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inter&family=Lato&display=swap');
+
+@font-face {
+  font-family: 'Ethereal';
+  src: url('/fonts/ethereal-thin-webfont.woff2') format('woff2'),
+       url('/fonts/ethereal-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #252525 !important;
+  font-family: 'Barlow', sans-serif !important;
+  background-color: #010000 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+a.button {
+  text-transform: uppercase;
+  background: rgb(235,184,128);
+  background: linear-gradient(0deg, rgba(227,198,139,1) 0%, rgba(235,184,128,1) 100%);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #000 !important;
+  font-size: 16px !important;
+  line-height: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+}
+a.button:hover {
+  text-transform: uppercase;
+  background: rgb(235,184,128);
+  background: linear-gradient(0deg, rgba(227,198,139,1) 0%, rgba(235,184,128,1) 100%);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #fff !important;
+  font-size: 16px !important;
+  line-height: 24px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-decoration: none;
+  
+}
+
+a.button2 {
+  color: #fff;
+  padding: 8px 14px 10px 14px;
+  border: 1px solid #E7BE84;
+  filter: drop-shadow(2px 3px 6px rgba(40, 53, 147, 0.2));
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 24px;  
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+}
+
+a.button3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: -0.68px;
+  color: #FFFFFF;
+  background: rgb(235,184,128);
+  background: linear-gradient(0deg, rgba(227,198,139,1) 0%, rgba(235,184,128,1) 100%);
+  border-radius: 8px;
+  padding: 5px 40px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+a.button2:hover {
+  color: #000 !important;
+  background-color: #e7be84;
+}
+
+a.button3:hover {
+  color: #fff !important;
+}
+
+a.button3-dark {
+  background: #3A3A3A;
+  color: #fff;
+}
+
+.body {
+  position: absolute;
+  height: 1245px;
+  width: 100%;
+  z-index: -1;
+  margin-top: -30px;
+}
+
+.body-inner {
+  position: absolute;
+  height: 1245px;
+  width: 100%;
+  z-index: -1;
+}
+
+.extra {
+  position: absolute;
+  height: 651px;
+  width: 94%;
+  z-index: -1;  
+}
+
+.width-limit {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex-cc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.home-c-left {
+  margin-top: 300px;
+  position: absolute;
+  min-height: 1541px;
+  width: 100%;
+  z-index: -1;
+}
+
+.home-c-right {
+  margin-top: 300px;
+  position: absolute;
+  right: 0;
+  min-height: 1541px;
+  width: 100%;
+  z-index: -1;
+}
+
+.yBox {
+  min-height: 801px;
+  background: linear-gradient(180deg, #E8BC83 0%, #F8DEBE 100%);
+  border-radius: 487px 0px 0px 0px;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yBox-inner {
+  max-width: 820px;
+}
+
+.yBox p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 37px;
+  text-align: center;  
+}
+
+.yBox-divider {
+  width: 186px;
+  height: 1px;
+  border-top: 1px solid #0C0C0C;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+}
+
+.worked-container {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;  
+}
+
+.worked-left, .worked-right {
+  position: absolute;
+  min-height: 1541px;
+  width: 100%;
+  z-index: -1;
+}
+
+h1.pricing {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 108px;
+  text-align: center;
+  color: #FFFFFF;
+  /* max-width: 550px; */
+  margin: 0 auto;
+}
+
+.pricing-fold {
+  padding: 20px 0 100px 0;
+}
+
+.white-area {
+  background: linear-gradient(180deg, #FFFFFF 68.75%, #F8DEBE 100%);
+  border-radius: 0px 400px 0px 0px;  
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  padding: 140px 0 60px 0;
+}
+
+.white-area-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.white-area h2 {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 34px;
+  opacity: 0.7;
+  padding-bottom: 50px;
+}
+
+.white-area p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #333333;
+  opacity: 0.7;  
+}
+
+.booking-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.booking-container h1 {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 108px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 620px;
+  margin: 10px auto 40px auto;
+}
+
+.booking-container p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.7;
+  padding-bottom: 40px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.booking-form {
+  background: linear-gradient(180deg, rgba(244, 244, 244, 0.12) 0%, rgba(255, 251, 242, 0.12) 100%);
+  padding: 85px 190px 40px 190px;
+  margin-bottom: 70px;
+}
+
+.booking-form p, .booking-form div.input {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 1.0;
+  padding-bottom: 40px;
+}
+
+.booking-form .stepper {
+  margin-bottom: 70px;
+}
+
+.booking-container .form-bottom, .booking-container .form-bottom2 {
+  width: 185px;
+  margin: 0 auto;
+  border-bottom: 1px solid #272625;
+  padding: 40px 0;
+}
+
+.booking-container .form-bottom2 {
+  border-bottom: none;
+}
+
+.page404, .thankyou {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page404 h1, .thankyou h1 {
+  font-family: 'Ethereal';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 300px;
+  line-height: 300px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 50px;  
+}
+
+.thankyou h1 {
+  line-height: 200px;
+  padding-bottom: 100px;
+}
+
+.page404 p, .thankyou p {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.7;
+  padding: 10px 0 50px 0;
+}
+
+.blog-content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@media (max-width:1100px) {
+  .white-area {
+    border-radius: 0px 200px 0px 0px;  
+    padding: 140px 0 60px 0;
+  }
+  .white-area-inner {
+    padding: 0 40px;
+  }
+  .white-area h2 {
+    line-height: 56px; 
+  }
+  .yBox {
+    border-radius: 200px 0px 0px 0px;
+  }
+  .yBox-inner {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width:1000px) {
+  .page404 h1, .thankyou h1 {
+    font-size: 200px;
+    line-height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }  
+}
+
+@media (max-width:850px) {
+  .booking-form {
+    padding: 60px 80px 40px 80px;
+  }  
+}
+
+@media (max-width:775px) {
+  .yBox-inner {
+    padding: 65px 45px 150px 45px;
+  }
+  .page404 h1, .thankyou h1 {
+    font-size: 150px;
+    line-height: 150px;
+  }  
+}
+
+@media (max-width:770px) {
+  .booking-container .form-bottom, .booking-container .form-bottom2 {
+    padding: 15px 0;
+  }
+  .booking-container .form-bottom2 {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width:550px) {
+  .page404 h1, .thankyou h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
+
+@media (max-width:575px) {
+  body {
+    background: #010000 !important;
+  }
+  p.service-p-divider {
+    display: none;
+  }
+  .yBox {
+    min-height: 801px;
+    border-radius: 129px 0px 0px 0px;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .yBox-inner {
+    padding: 65px 35px 80px 35px;
+  }
+  .yBox-inner p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;    
+  }
+  h1.pricing {
+    font-size: 40px;
+    line-height: 35px;
+    max-width: 250px;
+  }
+  .pricing-fold {
+    padding: 0 0 77px 0;
+  }
+  .white-area {
+    border-radius: 0px 152px 0px 0px;
+    padding: 120px 0 20px 0;
+  }
+  .white-area-inner {
+    padding: 0 40px;
+  }
+  .white-area h2 {
+    font-size: 40px;
+    line-height: 35px;
+    padding-bottom: 30px;
+  }
+  .white-area p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .booking-container h1 {
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .booking-container p {
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .booking-form {
+    padding: 60px 40px 40px 40px;
+    margin-bottom: 30px;
+  }
+  .page404 h1, .thankyou h1 {
+    font-size: 96px;
+    line-height: 35px;    
+    margin-top: 30px;
+  }
+  .thankyou h1 {
+    line-height: 78px;    
+  }  
+  .page404 p {
+    padding: 70px 30px 50px 30px;
+  }
+  .thankyou p {
+    padding: 20px 30px 50px 30px;
+  }
+}

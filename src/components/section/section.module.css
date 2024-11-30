@@ -1,0 +1,165 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.container p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.7;   
+}
+
+.container h3 {
+    font-family: 'Ethereal';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 55px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: -55px;
+    position: relative;
+    z-index: 10001;
+    padding-left: 60px;
+    opacity: 0.95;
+}
+
+.container .r {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container .l {
+    padding-left: 100px;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: url(/images/icons/disc.png);
+    color: #fff;
+}
+
+.container ul li {
+    margin-left: 17px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.container .buttonWrapper {
+    padding: 100px 0;
+}
+
+.container .hlWrapper {
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+.container .hlWrapper2 {
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.container .hl {
+    width: 186px;
+    border-top: 1px solid #fff;
+}
+
+.rButtonWrapper {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.container .price {
+    min-width: 105px;
+    min-height: 55px;
+    background: #E6C086;
+    border-radius: 35px 0px 11px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2E2D2D;
+    position: absolute;
+    z-index: 110000;
+    left: 345px;
+    left: 57%;
+    top: -25px;
+    text-transform: uppercase;
+    white-space: pre-line;
+    padding: 10px 30px;
+}
+
+@media (max-width:992px) {
+    .container {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .imageWrapper {
+        text-align: center;
+        padding: 0 30px;
+    }
+    .container p {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .container .l {
+        padding: 0 30px;
+    }
+    .container h3 {
+        text-align: center;
+        padding: 0 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .container .price {
+        margin-right: 30px;
+    }
+    .rButtonWrapper {
+        text-align: center;
+        margin-top: 50px;
+    }  
+}
+
+@media (max-width:575px) {
+    .container h3 {
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 38px;
+        margin-top: -10px;   
+        width: 100%;        
+    }
+    .container .hlWrapper {
+        display: none;
+    }
+    .container .hlWrapper2 {
+        padding-top: 0px;
+        padding-bottom: 90px;        
+    }
+    .container .hlWrapper2 .hl {
+        display: none;
+    }
+    .container .buttonWrapper {
+        padding: 20px 0 40px 0;
+    }
+    .container .price {
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-right: 0;
+    }
+    .rButtonWrapper {
+        text-align: center;
+        margin-top: 50px;
+    }    
+}

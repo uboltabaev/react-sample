@@ -1,0 +1,37 @@
+.content {
+  width: 100%;
+}
+
+.content p {
+  color: var(--color-grey-800);
+}
+
+.content .image {
+  margin: var(--size-4) auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.content .postContent {
+  background: linear-gradient(180deg, #FFFFFF 68.75%, #F8DEBE 100%);
+  border-radius: 0px 400.5px 0px 0px;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  margin-top: 135px;  
+}
+
+.content .postContentInner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 80px 0 50px 0;
+}
+
+@media (max-width:575px) {
+  .content .postContent {
+    border-radius: 0px 152px 0px 0px;
+    margin-top: 60px;
+  }
+  .content .postContentInner {
+    padding: 80px 40px 50px 40px;
+  }
+}

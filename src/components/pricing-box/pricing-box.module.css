@@ -1,0 +1,44 @@
+.container {
+    padding: 60px 42px 45px 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.container h3 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+    color: #3D3D3D;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.47px;
+    color: #3D3D3D;    
+}
+
+.container .price {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: -1.78px;
+    color: #3D3D3D;
+    margin-bottom: 25px;
+}
+
+.container .priceDark {
+    color: #E8BC83
+}

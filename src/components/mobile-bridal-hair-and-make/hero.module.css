@@ -1,0 +1,130 @@
+.hero {
+    text-align: center;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    width: auto;
+    height: 1050px;
+    padding-left: 40px;
+}
+
+.image {
+    position: absolute;
+    height: 800px;
+    width: 94%;
+    z-index: -1;
+    margin-top: -150px;
+}
+
+.image2 {
+    display: none;
+    position: absolute;
+    height: 800px;
+    width: 94%;
+    z-index: -1;
+    margin-top: -150px;
+}
+
+.hero h1 {
+    font-family: 'Ethereal';
+    margin: 0;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 96px;
+    line-height: 85px;
+    color: #fff;
+    text-align: left;
+    max-width: 500px;
+}
+
+.hero h2 {
+    font-family: 'Ethereal';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #E8BF85;
+    padding: 250px 40px 100px 40px;  
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+    width: 70%;
+    max-width: 30rem;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 50px;
+    max-width: 250px;
+}
+
+@media (max-width:750px) {
+    .hero h1 {
+        font-size: 74px;
+        line-height: 68px;
+        text-align: center;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 75%;
+    }
+    .hero p {
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .image {
+        display: none;
+    }
+    .image2 {
+        display: block;
+    }
+    .wrapper {
+        height: auto;
+        padding-bottom: 70px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width:650px) {
+    .hero h1 {
+        font-size: 60px;
+        line-height: 56px;
+        padding-top: 75%;
+    }
+}
+
+@media (max-width:575px) {
+    .hero h1 {
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 65%;
+        max-width: none;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .hero p {
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .hero h2 {
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 38px;
+        padding: 60px 40px 20px 40px;
+    }
+}

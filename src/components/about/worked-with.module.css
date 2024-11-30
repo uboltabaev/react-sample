@@ -1,0 +1,124 @@
+
+
+.container {
+    position: relative;
+    padding-top: 300px;
+}
+
+.container .ct {
+    position: relative;
+    min-width: 50%;
+}
+
+.container .himg {
+    position: absolute;
+    right: 100px;
+    top: -140px;
+    width: 118px;
+    height: 289px;
+    z-index: 100000;
+}
+
+.container .sec1 {
+    max-width: 880px;
+    margin: 0 auto;
+    min-height: 210px;
+}
+
+.container .sec1 p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-left: 150px;
+}
+
+.container .divider {
+    height: 186px;
+    width: 1px;
+    border-right: 1px solid #F6DBB9;
+    position: absolute;
+    top: 32px;
+    left: -48px
+}
+
+.container .cw {
+    position: relative;
+}
+
+.container .sec2 {
+    padding-top: 170px;
+    padding-bottom: 160px;
+}
+
+.container .sec2 h2 {
+    font-family: 'Ethereal';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 96px;
+    line-height: 157px;
+    text-align: center;
+    color: #E8BF85;
+}
+
+.container .worked {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.curved {
+    left: 110; 
+    top: 20
+}
+
+.container .himg2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: -70px;
+    width: 62px;
+    height: 289px;
+    z-index: 100000;
+}
+
+@media (max-width:775px) {
+    .container .sec1 p {
+        margin-left: 10px;
+    }
+    .container .divider {
+        top: 15px;
+    }
+    .container .ct {
+        min-height: 280px;
+    }
+}
+
+@media (max-width:575px) {
+    .container {
+        padding-top: 200px;
+    }
+    .container .sec1 p {
+        margin-left: 0;
+        padding: 0 40px;
+        text-align: center;
+    }
+    .container .sec2 h2 {
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .container .sec2 {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .container .worked {
+        margin-top: 60px;
+    }    
+}

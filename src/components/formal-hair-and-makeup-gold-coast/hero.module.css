@@ -1,0 +1,115 @@
+.hero {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    width: auto;
+    height: 800px;
+}
+
+.image {
+    position: absolute;
+    height: 750px;
+    width: 88%;
+    z-index: -1;
+    margin-top: -150px;
+}
+
+.image2 {
+    display: none;
+    position: absolute;
+    height: 750px;
+    width: 94%;
+    z-index: -1;
+    margin-top: -150px;
+}
+
+.hero h1 {
+    font-family: 'Ethereal';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 96px;
+    line-height: 76px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    max-width: 500px;
+}
+
+.hero p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    max-width: 220px;
+}
+
+.hero p.p2 {
+    padding: 0;
+}
+
+@media (max-width:750px) {
+    .hero h1 {
+        font-size: 74px;
+        line-height: 68px;
+        text-align: center;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 85%;
+    }
+    .hero p {
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    .wrapper {
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .image {
+        display: none;
+    }
+    .image2 {
+        display: block;
+    }
+}
+
+@media (max-width:650px) {
+    .hero h1 {
+        font-size: 60px;
+        line-height: 56px;
+        padding-top: 75%;
+    }
+}
+
+@media (max-width:575px) {
+    .hero h1 {
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 35px;
+        text-align: center;
+        padding-top: 190px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero p {
+        text-align: center;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .wrapper {
+        text-align: center;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}

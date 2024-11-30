@@ -1,0 +1,121 @@
+.carousel {
+    margin-top: 40px;
+    width: 840px;
+}
+
+.carousel-content {
+    min-height: 280px;
+    background: #DFCF92;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 16px;
+    padding: 40px 35px 30px 35px;
+}
+
+.carousel-content h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3D3D3D;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.carousel-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3D3D3D;    
+}
+
+p.initial {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+    font-family: 'Lato', sans-serif;  
+}
+
+.cc {
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+.pagination-root {
+    display: flex;
+    justify-content: center;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.dot {
+    background-color: #fff;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    margin: 3px 7px;
+}
+
+.active-dot {
+    background-color: #EEB47D
+}
+
+.dot-root {
+    height: 32px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.pic {
+    width: 200px;
+    flex: none;
+}
+
+@media (max-width:860px) {
+    .carousel {
+        width: 100%;
+    }
+}
+
+@media (max-width:575px) {
+    .carousel {
+        margin: 0 20px;
+    }
+    .carousel-content h5 {
+        padding-top: 20px;
+        text-align: center;   
+    }
+    .carousel-content p {
+        text-align: center;
+    }
+    .rw {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pic {
+        text-align: center;
+        width: 120px;
+        flex: none;
+    }
+    .prevIcon, .nextIcon {
+        display: none;
+    }
+    .dot {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+        margin: 3px 5px;
+    }
+    .cc {
+        margin-top: 30px;
+    }    
+}
